@@ -1,0 +1,42 @@
+Developers Guide
+-------------------------------------------------------------------------------------------------------------
+THE CURRENCY AMOUNT
+            String a = textBox1.Text; 
+            int i = Convert.ToInt32(a);
+The currency amount is eneters in a text box as text, them its converted to string so calculations can be done on it
+----------------------------------------------------------------------------------------------------------------
+THE "SELECT CURRENCY CONVERSION FROM:" COMBO BOX
+Sample code:
+//Conversion from INR ₹ - Indian Rupee to Pound, Dollar, and Euro...
+            if (comboBox1.SelectedItem == "India - INR ₹ (Rupee)" && comboBox2.SelectedItem == "UK - GBP £ (British Pound Sterling)")
+            {
+                double conver = i / 102.37;
+                label2.Text = "" + i + " INR ₹ - Indian Rupee = \n\t" + conver + " GBP";
+            }
+            if (comboBox1.SelectedItem == "India - INR ₹ (Rupee)" && comboBox2.SelectedItem == "US - USD $ (Dollar)")
+            {
+                double conver = i * 0.014;
+                label2.Text = "" + i + " INR ₹ - Indian Rupee = \n\t" + conver + " USD";
+            }
+            if (comboBox1.SelectedItem == "India - INR ₹ (Rupee)" && comboBox2.SelectedItem == "Europe - EUR € (Euro)")
+            {
+                double conver = i * 0.011;
+                label2.Text = "" + i + " INR ₹ - Indian Rupee = \n\t" + conver + " EUR";
+            }
+
+From the code above,
+-First thing is to check whether Country Currencies selected match what is required to perform the operations under this section
+For each conversion, the amount entered is divided by the conversion rate and stored in a variable. Example (double conver = i / 102.37)
+And then displayed out as output on the Result label: Example (label2.Text = "" + i + " INR ₹ - Indian Rupee = \n\t" + conver + " GBP";) 
+-----------------------------------------------------------------------------------------------------------------
+THE CLEAR BUTTON
+private void button1_Click(object sender, EventArgs e)
+        {
+            label2.Text = "Result";
+            comboBox1.Text = "Select Currency";
+            comboBox2.Text = "Select Currency";
+            textBox1.Text = "0";
+        }
+
+The code above is used to handle the operations of the clear button, once it is clicked all enteries are to revert back to this as the default.
+For more information see the form1.cs file.
