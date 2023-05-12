@@ -1,2 +1,41 @@
 # Eerie-eureka
 Windows Store App : Currency Concerter Demo
+Currency Converter Application.
+-----------------------------------------------
+Minimum Hardware Requirements
+-----------------------------------------------
+        Intel Core Pentium Processor or higher
+	4GB RAM or above
+	Color SVGA
+	12GB HardDisk or higher
+-----------------------------------------------
+Minimum Software Requirements
+-----------------------------------------------
+	Microsoft Windows 7 or Windows 8.1 or higher
+        Linus OS, and Mac OS can also be used.
+	Visual Studio 2012 or higher
+	NotePad++ or NotePad
+	Microsoft Word, Excel, PowerPoint 2003 or higher
+-----------------------------------------------
+Inputs provided By the user:
+	Currency Selection.
+	Amount to be converted.
+-----------------------------------------------
+Usage
+-----------------------------------------------
+Unpack the rar file and open the project with Visual Studio 2012 or any higher version
+Run the project
+
+An interface appears displaying 
+Drop down box1  ~Select Currency Conversion from
+Drop down box2  ~Select Currency Conversion to
+Text box ~Enter Amount of Currency to be converted
+Convert button ~On click displays result
+Result Label ~Displays result of conversion
+Clear button ~Clears all original enteries
+
+Note 
+When entering an amount, the amount must be greater than 1, must be a whole number (not include decimal point '.' or ',')
+------------------------------------------------
+To exit the app just close the APP.
+THANK YOU! :)
