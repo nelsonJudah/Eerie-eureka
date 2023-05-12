@@ -1,0 +1,8 @@
+To open the app follow the following steps.
+------------------------------------------
+Extract the file to any location on the system,
+"Documents" prefferably.
+1. Extract the file to your Documents.
+2. Follow the file Path C:/Documents/Currency Converter/Currency Converter/Currency Converter.csproj
+3. Open Visual Studio. Open New Project. Select the file "Currency Converter.csproj" Done.
+See user guide for more information.
